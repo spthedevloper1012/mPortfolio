@@ -1,0 +1,34 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "GGWP",
+            "description": "React, JSX, Tailwind, Jest",
+            "url": "/contact"
+        },
+        {
+            "cover": "/portfolio/1/three.png",
+            "title": "Movie Page",
+            "description": "React,Tailwind, Node",
+            "url": "/contact"
+        },
+        {
+            "cover": "/portfolio/1/four.png",
+            "title": "Home page",
+            "description": "React, css, JSON",
+            "url": "/contact"
+        },
+        {
+            "cover": "/portfolio/1/five.png",
+            "title": "Food Web",
+            "description": "React, Tailwind, HTML,CSS",
+            "url": "/contact"
+        },
+        {
+            "cover": "/portfolio/1/two.png",
+            "title": "Task Manager",
+            "description": "React, HTML, Tailwind, CSS",
+            "url": "/contact"
+        }
+    ]
+}
