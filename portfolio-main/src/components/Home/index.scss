@@ -107,6 +107,10 @@
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
+
+        @media(min-width:375px)and(max-width:425px){
+            font-size: 13px;
+        }
    }
 
    .flat-button {

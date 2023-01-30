@@ -19,10 +19,10 @@
     font-family: 'La Belle Aurore', cursive;
 
     @media(min-width: 320px)and(max-width:375px){
-      left: 26%;
+      left: 24%;
     }
     @media(min-width: 375px)and(max-width:425px){
-      left: 26%;
+      left: 23%;
     }
   }
   
@@ -62,6 +62,10 @@
         margin-left: 28px;
         margin-top: 25px;
         font-size: 41.5px;
+      }
+      @media(min-width:375px)and(max-width:425px){
+        margin-left: 15px;
+        margin-top: 15px;
       }
       &:before {
         content: '<h1>';
@@ -195,6 +199,10 @@
         &:nth-of-type(3) {
           animation-delay: 1.3s;
         }
+
+        @media(min-width:375px)and(max-width:425px){
+          font-size: 14px;
+        }
       }
   
     .text-zone {
@@ -208,6 +216,10 @@
       max-height: 90%;
 
       @media(min-width:320px)and(max-width:375px){
+        left: 24%;
+        width: 74%;
+      }
+      @media(min-width:375px)and(max-width:425px){
         left: 24%;
         width: 74%;
       }
