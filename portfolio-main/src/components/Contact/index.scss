@@ -5,6 +5,9 @@
     @media(min-width:375px)and(max-width:425px){
       width: 96%;
     }
+    @media(min-width:425px)and(max-width:767px){
+      width: 96%;
+    }
   
     ul {
       padding: 0;
@@ -90,6 +93,13 @@
     @media(min-width:375px)and(max-width:425px){
       display: none;
     }
+    @media(min-width:425px)and(max-width:767px){
+      display: none;
+    }
+    @media(min-width:768px)and(max-width:1024px){
+      width: 40%;
+      height: 110%;
+    }
   }
   
   .leaflet-container {
@@ -122,6 +132,20 @@
     }
     @media(min-width:375px)and(max-width:425px){
       display: none;
+    }
+    @media(min-width:425px)and(max-width:768px){
+      display: none;
+    }
+    @media(min-width:768px)and(max-width:1024px){
+    position: absolute;
+    left: 55%;
+    top: 9%;
+    opacity: 0.5;
+    display: inline-block;
+    width: 220px;
+    font-size: 15px;
+    left: 64%;
+    padding: 15px;
     }
     span {
       font-size: 16px;
